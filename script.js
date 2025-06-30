@@ -107,9 +107,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.appendChild(surpriseButton);
     surpriseButtonCreated = true; // Set flag to true to avoid recreating the button
 
-    // Add click event to redirect to Guess-The-Flag
+    // Add click event to redirect to flags.html
     surpriseButton.addEventListener("click", function () {
-      window.location.href = '../Guess-The-Flag/index.html'; // Redirect to the surprise page
+      window.location.href = 'flags.html'; // Redirect to the surprise page
     });
   }
 
